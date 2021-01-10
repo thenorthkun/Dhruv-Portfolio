@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@200;300&display=swap');
 
 :root {
-    --primary-color: #7C3AED;
+    --primary-color: #60A5FA;
     --dark-grey : #6B7280; 
     --off-white : #E5E7EB;
 }
@@ -15,6 +15,10 @@ body {
 
 hr{
     margin: 2rem 0rem;
+}
+.line{
+    width:3rem;
+
 }
 
 
@@ -32,6 +36,7 @@ hr{
     /*or we can use padding : 3rem 1rem */
 }
 .container-center {
+    /* padding-top: 8rem; */
     max-width: 800px;
     margin : auto;
 }
@@ -76,9 +81,12 @@ hr{
 .navigation{
     
     background-color: var(--primary-color);
-    color: white;
-    padding: 1rem;
-    border-bottom-left-radius: 1rem;
+    color: black;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    padding: 0.5rem 0.5rem;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
 }
 
 .navigation .nav-pills{
@@ -91,7 +99,7 @@ hr{
 }
 
 .navigation .link{  /*inside navigation if there is a link class, then*/
-    color: white;
+    color: black;
 }
 
 .navigation .link-active {
@@ -108,7 +116,7 @@ hr{
 
 .hero .hero-img{
     
-    max-width: 400px;
+    max-width: 300px;
     display: block;
     margin: auto;
     
@@ -120,7 +128,8 @@ hr{
     font-weight: 300;
     line-height: 1.2;
     text-align: center;
-    padding-top: 1rem;
+    /* padding-top: 1rem; */
+    /* padding-bottom: 10rem; */
 
 }
 .hero .hero-heading .hero-highlight{
@@ -130,6 +139,9 @@ hr{
 /*** Section ***/
 
 .section{
+    /* padding-top: 4rem; */
+    margin-left: 8rem;
+    margin-right: 8rem;
     padding : 2rem;
     text-align: center;
 }
@@ -139,23 +151,30 @@ hr{
 }
 
 .off-white{
+    padding: 2rem 0;
+    border-radius: 2rem;
     text-align: center;
-    padding-top: 1rem;
+    /* padding-top: 1rem; */
     background-color: var(--off-white);
 }
 
 /*** Footer ***/
 
 .footer{
+    margin-top: 5rem;
     background-color: var(--primary-color);
     padding: 2rem 1rem;
     text-align: center;
-    color: white;
-    border-top-right-radius: 1rem;
+    color: black;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    padding: 4rem 4rem;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
 }
 
 .footer .link{    /*links inside footer should be white*/
-    color: white;
+    color: black;
 
 }
 
